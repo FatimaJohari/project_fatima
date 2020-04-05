@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 
-from ... import ...
+from forecasting.forecasting import Forecasting
 
-def main():
+directory = "C:/Users/fatjo876/Documents/Year_2/PhD Courses/AdvancedSolarIrradianceTheory-master/sxf_2015-2016.txt"
+
+def main(directory):
     print("Specify your solar radiation directory")
-
-    forecasting.run()
+    Forecasting.forecasting(directory)
 
 
 if __name__ == "__main__":
-    main()
+    main(directory)
